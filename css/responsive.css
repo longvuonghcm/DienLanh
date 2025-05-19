@@ -1,0 +1,13 @@
+@media (max-width: 1023px){
+    .modal-fullscreen .title{
+        top: 12%;
+        left: 12%;
+    }
+    .navigate-left {
+        left: 12px !important;
+    }
+    
+    .navigate-right {
+        right: 12px !important;
+    }
+}

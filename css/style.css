@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #0ea815; /* Màu primary */
+    --color-primary: #009807; /* Màu primary */
     --color-second:#18b45e;
     --color-third:#d1fc81; 
     --color-fouth:#5d5d5d;
@@ -37,14 +37,13 @@ img{
 }
 /* Navbar */
 .header{
-    background-color: black;
     position: sticky;
     top: 0;
     z-index: 1000;
     padding: 0 !important;
+    background-color:  rgb(209 209 209);
 }
 .navbar-brand {
-    color: white !important;
     font-weight: 200;
 }
 .navbar {
@@ -57,13 +56,11 @@ img{
     border: none;
 }
 .navbar-nav .nav-link {
-    color: white;
     font-weight: 600;
     padding: 0.8rem;
 }
 .navbar-nav .nav-link.show,
 .navbar-nav .nav-link.active {
-    color: var(--color-primary) !important;
     font-weight: bold;
     border-radius: 5px;
 }

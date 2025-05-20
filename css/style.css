@@ -1,7 +1,7 @@
 :root {
     --color-primary: #009807; /* Màu primary */
     --color-second:#18b45e;
-    --color-third:#d1fc81; 
+    --color-third:#d0f1d2; 
     --color-fouth:#5d5d5d;
 }
 .color-primary{
@@ -65,10 +65,8 @@ img{
     border-radius: 5px;
 }
 .navbar-nav .nav-link.show{
-    color: var(--color-primary) !important;
 }
 .navbar-nav .nav-link:hover{
-    color: var(--color-primary) !important;
     transition: 0.5s;
 }
 .offcanvas {
@@ -118,6 +116,11 @@ img{
 .hidden {
     display: none;
   }
+
+#toggle-button{
+    border: none;
+    padding: 4px 8px;
+}
   /* Modal Styles */
   #storyModal.modal-fullscreen {
     display: none;
@@ -319,7 +322,10 @@ img{
     aspect-ratio: 3 / 4;
     border-radius: 10px;
 }
-
+/* Price */
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+    background-color: var(--color-third);
+}
 /* Review */
 .feedback{
     position: relative;
